@@ -40,6 +40,24 @@ const TodoForm: React.FC<Props> = ({ onSubmit, selectedTask }) => {
         onChange={(e) => setTitle(e.target.value)}
         fullWidth
       />
+
+      <TextField
+        type='date'
+        value={dueDate}
+        onChange={(e) => setDueDate(e.target.value)}
+        fullWidth
+        InputLabelProps={{ shrink: true }}
+        style={{ marginTop: 10 }}
+      />
+
+      <Button
+        variant='contained'
+        color='primary'
+        onClick={handleSave}
+        style={{ marginTop: 10 }}
+      >
+        {selectedTask ? 'Update Task' : 'Add Task'}
+      </Button>
     </div>
   );
 };
