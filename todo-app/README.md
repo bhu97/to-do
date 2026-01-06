@@ -44,3 +44,20 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+HOW TO RUN THE PROJECT
+
+please clone the project.
+
+STEP1: npm install
+
+STEP2: npm start
+
+features that are added:
+
+1. creating task
+2. edit or update a task
+3. delete a task
+4. color changing background is added for tasks this is based on the status of task if its completed or duedate is passed.
+5. used material ui for icons
+   template for this project is typescript
